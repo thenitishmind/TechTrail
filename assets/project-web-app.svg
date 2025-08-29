@@ -1,0 +1,42 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screen-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Laptop Base -->
+  <rect x="50" y="180" width="300" height="100" rx="8" fill="#2d3748"/>
+  <rect x="40" y="275" width="320" height="8" rx="4" fill="#1a202c"/>
+  
+  <!-- Screen -->
+  <rect x="70" y="80" width="260" height="160" rx="6" fill="#1a202c"/>
+  <rect x="75" y="85" width="250" height="150" rx="4" fill="url(#screen-gradient)"/>
+  
+  <!-- Browser Chrome -->
+  <rect x="75" y="85" width="250" height="25" fill="#4a5568"/>
+  <circle cx="87" r="4" cy="97.5" fill="#fc8181"/>
+  <circle cx="102" r="4" cy="97.5" fill="#f6e05e"/>
+  <circle cx="117" r="4" cy="97.5" fill="#68d391"/>
+  
+  <!-- Content Areas -->
+  <rect x="85" y="120" width="230" height="8" rx="4" fill="#cbd5e0"/>
+  <rect x="85" y="135" width="180" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="85" y="148" width="200" height="6" rx="3" fill="#e2e8f0"/>
+  
+  <!-- Cards -->
+  <rect x="85" y="165" width="70" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="165" y="165" width="70" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="245" y="165" width="70" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Code Symbol -->
+  <text x="200" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">&lt;/&gt;</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="default-bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="folder-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3182ce;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#default-bg-gradient)"/>
+  
+  <!-- Folder Icon -->
+  <path d="M 120 120 L 280 120 L 280 200 L 120 200 Z" fill="url(#folder-gradient)"/>
+  <path d="M 120 120 L 180 120 L 190 110 L 240 110 L 250 120 L 280 120 L 280 130 L 120 130 Z" fill="url(#folder-gradient)"/>
+  
+  <!-- Code Files -->
+  <rect x="140" y="140" width="40" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="190" y="140" width="40" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="240" y="140" width="40" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Code Lines -->
+  <rect x="145" y="150" width="25" height="2" fill="#4a5568"/>
+  <rect x="145" y="155" width="20" height="2" fill="#4a5568"/>
+  <rect x="145" y="160" width="30" height="2" fill="#4a5568"/>
+  
+  <rect x="195" y="150" width="25" height="2" fill="#4a5568"/>
+  <rect x="195" y="155" width="20" height="2" fill="#4a5568"/>
+  <rect x="195" y="160" width="30" height="2" fill="#4a5568"/>
+  
+  <rect x="245" y="150" width="25" height="2" fill="#4a5568"/>
+  <rect x="245" y="155" width="20" height="2" fill="#4a5568"/>
+  <rect x="245" y="160" width="30" height="2" fill="#4a5568"/>
+  
+  <!-- Project Text -->
+  <text x="200" y="80" text-anchor="middle" fill="#4a5568" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Project</text>
+  <text x="200" y="240" text-anchor="middle" fill="#4a5568" font-family="Arial, sans-serif" font-size="12">Development Project</text>
+</svg>
