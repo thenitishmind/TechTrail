@@ -468,7 +468,7 @@ function createProjectCard(project) {
 - **Portfolio:** [https://nitishsghh.netlify.app/](https://nitishsghh.netlify.app/)
 - **LinkedIn:** [linkedin.com/in/nitish-kumar-85a860126/](https://www.linkedin.com/in/nitish-kumar-85a860126/)
 - **GitHub:** [github.com/thenitishmind](https://github.com/thenitishmind)
-- **Email:** [singhnitish627@gmail.com](mailto:singhnitish627@gmail.com)
+
 
 ---
 
