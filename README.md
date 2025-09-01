@@ -2,9 +2,6 @@
 
 A modern, responsive portfolio website showcasing full-stack development skills, projects, and professional experience.
 
-## 🌐 Live Demo
-**Portfolio URL:** [https://nitishsghh.netlify.app/](https://nitishsghh.netlify.app/)
-
 ---
 
 ## 📋 Table of Contents
